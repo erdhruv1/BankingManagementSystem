@@ -21,6 +21,7 @@ def main():
 
         if choice == 1:
             ''' Write Sign Up Logic of Customer'''
+            print("Adding the logic now")
             # Pass
 
         elif choice == 2:
