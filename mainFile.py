@@ -26,6 +26,7 @@ def main():
 
         elif choice == 2:
             '''Write Sign In Logic of Customer'''
+            print("Adding the sign in logic")
 
         elif choice == 3:
             '''Write Admin Sign In Logic'''
