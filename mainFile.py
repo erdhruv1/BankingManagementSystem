@@ -1,6 +1,9 @@
-
+from banking_functions import BankingFunctions
 
 def main():
+
+    bankingFuncObj = BankingFunctions()
+
     choice = 1
 
     while choice != 0:
@@ -21,7 +24,7 @@ def main():
 
         if choice == 1:
             ''' Write Sign Up Logic of Customer'''
-            print("Adding the logic now")
+            bankingFuncObj.sign_up()
             # Pass
 
         elif choice == 2:
