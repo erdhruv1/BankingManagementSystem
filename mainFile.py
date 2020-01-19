@@ -29,10 +29,11 @@ def main():
 
         elif choice == 2:
             '''Write Sign In Logic of Customer'''
-            print("Adding the sign in logic")
+            bankingFuncObj.sign_in();
 
         elif choice == 3:
             '''Write Admin Sign In Logic'''
+            bankingFuncObj.admin_sign_in();
 
         elif choice == 0:
             print("Application Closed")
